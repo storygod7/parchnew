@@ -1,0 +1,56 @@
+{
+  "results": [
+    {
+      "name": "original Back geometry 1440",
+      "passed": true,
+      "detail": {
+        "x": 204,
+        "y": 4132,
+        "w": 47.171875,
+        "h": 17,
+        "name": "Back",
+        "href": "index.html#event",
+        "src": "assets/back-0-5133.svg"
+      }
+    },
+    {
+      "name": "Back keyboard destination 1440",
+      "passed": true
+    },
+    {
+      "name": "original Back geometry 393",
+      "passed": true,
+      "detail": {
+        "x": 203.9780534351145,
+        "y": 4131.974236641222,
+        "w": 47.17366412213741,
+        "h": 16.987595419847327,
+        "name": "Back",
+        "href": "index.html#event",
+        "src": "assets/back-0-5133.svg"
+      }
+    },
+    {
+      "name": "Back keyboard destination 393",
+      "passed": true
+    },
+    {
+      "name": "original Back geometry 320",
+      "passed": true,
+      "detail": {
+        "x": 203.97539062500002,
+        "y": 4131.965625,
+        "w": 47.15859375,
+        "h": 16.988671875,
+        "name": "Back",
+        "href": "index.html#event",
+        "src": "assets/back-0-5133.svg"
+      }
+    },
+    {
+      "name": "Back keyboard destination 320",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

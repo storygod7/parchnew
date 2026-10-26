@@ -1,0 +1,21 @@
+{
+  "results": [
+    {
+      "page": "index.html",
+      "passed": true,
+      "bad": [],
+      "count": 502,
+      "overflow": false,
+      "links": 6
+    },
+    {
+      "page": "events.html",
+      "passed": true,
+      "bad": [],
+      "count": 194,
+      "overflow": false,
+      "links": 6
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "name": "keyboard opens Enter",
+    "passed": true
+  },
+  {
+    "name": "focus stays in modal",
+    "passed": true
+  },
+  {
+    "name": "keyboard opens Space",
+    "passed": true
+  },
+  {
+    "name": "focus stays in modal",
+    "passed": true
+  },
+  {
+    "name": "repeat menu 0",
+    "passed": true
+  },
+  {
+    "name": "repeat menu 1",
+    "passed": true
+  },
+  {
+    "name": "repeat menu 2",
+    "passed": true
+  },
+  {
+    "name": "tracking visible midpage",
+    "passed": true
+  },
+  {
+    "name": "tracking hidden by footer",
+    "passed": true
+  },
+  {
+    "name": "desktop side groups 901",
+    "passed": true,
+    "detail": [
+      {
+        "center": 0,
+        "inside": true,
+        "background": "cover"
+      },
+      {
+        "center": 0,
+        "inside": true,
+        "background": "cover"
+      }
+    ]
+  },
+  {
+    "name": "desktop side groups 1024",
+    "passed": true,
+    "detail": [
+      {
+        "center": 0,
+        "inside": true,
+        "background": "cover"
+      },
+      {
+        "center": 0,
+        "inside": true,
+        "background": "cover"
+      }
+    ]
+  },
+  {
+    "name": "desktop side groups 1440",
+    "passed": true,
+    "detail": [
+      {
+        "center": 0,
+        "inside": true,
+        "background": "cover"
+      },
+      {
+        "center": 0,
+        "inside": true,
+        "background": "cover"
+      }
+    ]
+  },
+  {
+    "name": "desktop side groups 1920",
+    "passed": true,
+    "detail": [
+      {
+        "center": 0,
+        "inside": true,
+        "background": "cover"
+      },
+      {
+        "center": 0,
+        "inside": true,
+        "background": "cover"
+      }
+    ]
+  },
+  {
+    "name": "local font ready",
+    "passed": true
+  },
+  {
+    "name": "original SVG image fills decode",
+    "passed": true,
+    "detail": {
+      "count": 24,
+      "bad": []
+    }
+  }
+]

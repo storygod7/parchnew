@@ -1,0 +1,31 @@
+{
+  "compared_actual_images": 8,
+  "pairs": [
+    {
+      "pair": 1,
+      "area": "sticker right",
+      "source_node": "0:4738",
+      "result": "restored original position, size, tilt"
+    },
+    {
+      "pair": 2,
+      "area": "photo spot image",
+      "source_node": "0:4738",
+      "result": "misplaced sticker heart no longer overlaps photo spot"
+    },
+    {
+      "pair": 3,
+      "area": "sticker right",
+      "same_as_pair": 1,
+      "result": "confirmed by actual pixels; same fix"
+    },
+    {
+      "pair": 4,
+      "area": "Instagram left",
+      "source_node": "0:4775",
+      "result": "restored original position, size, tilt"
+    }
+  ],
+  "cause": "CSS scale on transformed parent scaled its translation as well; removed redundant scaling; source already has correct artwork geometry",
+  "validation": "revision-v3-qa.json: 16/16; actual screenshots viewed at desktop and mobile sizes"
+}

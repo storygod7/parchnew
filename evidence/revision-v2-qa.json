@@ -1,0 +1,1325 @@
+{
+  "results": [
+    {
+      "name": "card alignment 1440",
+      "passed": true,
+      "cards": [
+        {
+          "shop": "アフタヌーンティー・",
+          "alignment": [
+            "left",
+            "left",
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "魔法のケーキ屋さん ",
+          "alignment": [
+            "left",
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "かしはる",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ビアードパパ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "サンデーマフィン",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "パティスリー46",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "蔵好三坂屋",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ローゲンマイヤー",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "マリアサンク",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "タリーズコーヒー",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "matcha KIMIKURA",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "クッキーピゲ",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "東京凮月堂",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ベルマート",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "グリーン・グルメ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "日本一",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "知久屋",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "府中かしわで",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "五味八珍",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "はなまるダイニングセレクト",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "久世福商店",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "イーション",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "野菜をMOTTO",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "花の舞",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "エイチアンドエフベルクス",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ニガクナイコウチャby green eight",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ダイアナ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "マリークヮント",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ジルスチュアート ビューティ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ブルーム",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "スタディオクリップ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "スリーフォータイム",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "リトム エ アッシュ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ビースリー",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "アップルハウス",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "マインド フォーム オルウェイズ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "フォルムフォルマ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "銀座マギー",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "グレープ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "アヴェニュー",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "サックスバージーン",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ABC-MART",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ハニーズ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "PLAZA",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "チュチュアンナ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "フローラ45",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ジェラート ピケ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ナックインナールーム",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "Zoff",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "中央コンタクト",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ジュリア・オージェ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "和真メガネ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "保険見直し本舗",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        }
+      ],
+      "geometry": {
+        "alignment": "left",
+        "lineOffsets": [
+          0,
+          0
+        ],
+        "html": "ニガクナイコウチャ<br>by green eight"
+      }
+    },
+    {
+      "name": "tea modal/link/focus 1440",
+      "passed": true
+    },
+    {
+      "name": "overflow 1440",
+      "passed": true
+    },
+    {
+      "name": "card alignment 393",
+      "passed": true,
+      "cards": [
+        {
+          "shop": "アフタヌーンティー・",
+          "alignment": [
+            "left",
+            "left",
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "魔法のケーキ屋さん ",
+          "alignment": [
+            "left",
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "かしはる",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ビアードパパ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "サンデーマフィン",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "パティスリー46",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "蔵好三坂屋",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ローゲンマイヤー",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "マリアサンク",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "タリーズコーヒー",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "matcha KIMIKURA",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "クッキーピゲ",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "東京凮月堂",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ベルマート",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "グリーン・グルメ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "日本一",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "知久屋",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "府中かしわで",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "五味八珍",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "はなまるダイニングセレクト",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "久世福商店",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "イーション",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "野菜をMOTTO",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "花の舞",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "エイチアンドエフベルクス",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ニガクナイコウチャby green eight",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ダイアナ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "マリークヮント",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ジルスチュアート ビューティ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ブルーム",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "スタディオクリップ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "スリーフォータイム",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "リトム エ アッシュ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ビースリー",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "アップルハウス",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "マインド フォーム オルウェイズ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "フォルムフォルマ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "銀座マギー",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "グレープ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "アヴェニュー",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "サックスバージーン",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ABC-MART",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ハニーズ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "PLAZA",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "チュチュアンナ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "フローラ45",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ジェラート ピケ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ナックインナールーム",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "Zoff",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "中央コンタクト",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ジュリア・オージェ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "和真メガネ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "保険見直し本舗",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        }
+      ],
+      "geometry": {
+        "alignment": "left",
+        "lineOffsets": [
+          0,
+          0
+        ],
+        "html": "ニガクナイコウチャ<br>by green eight"
+      }
+    },
+    {
+      "name": "tea modal/link/focus 393",
+      "passed": true
+    },
+    {
+      "name": "overflow 393",
+      "passed": true
+    },
+    {
+      "name": "card alignment 320",
+      "passed": true,
+      "cards": [
+        {
+          "shop": "アフタヌーンティー・",
+          "alignment": [
+            "left",
+            "left",
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "魔法のケーキ屋さん ",
+          "alignment": [
+            "left",
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "かしはる",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ビアードパパ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "サンデーマフィン",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "パティスリー46",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "蔵好三坂屋",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ローゲンマイヤー",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "マリアサンク",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "タリーズコーヒー",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "matcha KIMIKURA",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "クッキーピゲ",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "東京凮月堂",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ベルマート",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "グリーン・グルメ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "日本一",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "知久屋",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "府中かしわで",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "五味八珍",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "はなまるダイニングセレクト",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "久世福商店",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "イーション",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "野菜をMOTTO",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "花の舞",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "エイチアンドエフベルクス",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ニガクナイコウチャby green eight",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ダイアナ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "マリークヮント",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ジルスチュアート ビューティ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ブルーム",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "スタディオクリップ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "スリーフォータイム",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "リトム エ アッシュ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ビースリー",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "アップルハウス",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "マインド フォーム オルウェイズ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "フォルムフォルマ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "銀座マギー",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "グレープ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "アヴェニュー",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "サックスバージーン",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ABC-MART",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ハニーズ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "PLAZA",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "チュチュアンナ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "フローラ45",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ジェラート ピケ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ナックインナールーム",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "Zoff",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "中央コンタクト",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "ジュリア・オージェ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "和真メガネ",
+          "alignment": [
+            "left",
+            "left",
+            "left"
+          ]
+        },
+        {
+          "shop": "保険見直し本舗",
+          "alignment": [
+            "left",
+            "left"
+          ]
+        }
+      ],
+      "geometry": {
+        "alignment": "left",
+        "lineOffsets": [
+          0,
+          0
+        ],
+        "html": "ニガクナイコウチャ<br>by green eight"
+      }
+    },
+    {
+      "name": "tea modal/link/focus 320",
+      "passed": true
+    },
+    {
+      "name": "overflow 320",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

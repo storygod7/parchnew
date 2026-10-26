@@ -1,0 +1,36 @@
+/* Full-bleed side regions preserve fixed positioning and center each art group. */
+.side{background:#eef2ff url('assets/561f8939-377c-48e8-8341-01d5a7dfc9a2.png') center/cover no-repeat;height:100dvh}
+.side .side-art{left:50%;right:auto;top:50%;transform:translate(-50%,-50%)}
+.side-art>.art-background{display:none}
+.node-link{position:absolute;inset:0;z-index:4;display:block}
+a,button,.action,.product-card{transition:filter .18s ease,opacity .18s ease}
+a:hover,button:hover,.action:hover,.product-card:hover{filter:brightness(1.07);opacity:.87}
+#modal-content a{display:inline-block;min-width:90px}
+.event-return{font-size:25px;bottom:35px}
+.tracking-top{position:fixed;bottom:18px;right:max(18px,calc((100vw - 456px)/2 + 10px));width:98px;height:93px;z-index:80;transform:scale(.75);transform-origin:bottom right}
+.tracking-top[hidden]{display:none}
+.floating-decoration{animation:float-decoration 4s ease-in-out infinite}
+@keyframes float-decoration{0%,100%{translate:0 -3px}50%{translate:0 3px}}
+#navigation{background:#ebedff}#navigation-content{background:#ebedff;overflow:hidden}
+#navigation-content>[data-node-id]{min-height:100%}
+.opening{position:fixed;inset:0;background:white;z-index:1000;overflow:hidden}
+.opening::before{content:'';position:absolute;inset:0;background:#eef2ff url('assets/561f8939-377c-48e8-8341-01d5a7dfc9a2.png') center/cover;animation:opening-background .5s both}
+@keyframes opening-background{from{opacity:0}to{opacity:1}}
+.opening-canvas{position:absolute;left:50%;top:50%;transform-origin:center}
+.opening-skip{position:absolute;right:20px;bottom:20px;border:1px solid #7776;border-radius:24px;padding:8px 20px;background:#fffc;color:#53539b}
+@media(max-width:900px){dialog{position:fixed;inset:0;margin:0;width:100vw!important;max-width:none;max-height:none;height:100dvh;min-height:100dvh;border-radius:0}#modal-content{min-height:calc(100dvh / var(--scale))}#navigation-content{height:auto}.dialog-x{top:10px}body:has(dialog[open]){overscroll-behavior:none}}
+@media(prefers-reduced-motion:reduce){.floating-decoration{animation:none}a,button,.action,.product-card{transition:none}}
+#navigation [data-node-id="0:6180"]{pointer-events:none}
+#navigation [data-node-id="0:6150"]{z-index:3}
+/* Keep decorative SVG bounding boxes out of interaction hit testing. */
+.floating-decoration{pointer-events:none}
+.skip:not(:focus){clip-path:inset(50%);width:1px;height:1px;overflow:hidden}
+#navigation-content>.fig-node>svg:first-child{height:100%;width:100%}
+.opening-pending .page-width,.opening-pending .side{visibility:hidden}
+.side .side-art{transform:translate(-50%,-50%) scale(var(--side-scale,1))}
+.opening-source-background{position:absolute;inset:0;width:100%;height:100%}.opening.has-source-background::before{display:none}.opening::after{content:'';position:absolute;bottom:0;left:0;right:0;height:var(--opening-white-bottom,0px);background:white;pointer-events:none}.opening-skip{z-index:2}
+
+/* Original Figma Back outlines, node 0:5133; padding enlarges only its hit area. */
+.event-return{left:192px;top:4120px;bottom:auto;width:71.1784362793px;height:41px;padding:12px;line-height:0}
+.event-return img{width:47.1784362793px;height:17px;max-width:none}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}

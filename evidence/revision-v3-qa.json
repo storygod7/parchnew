@@ -1,0 +1,123 @@
+{
+  "results": [
+    {
+      "name": "sticker heart 1440",
+      "passed": true,
+      "detail": {
+        "outerScale": "none",
+        "innerTransform": "none",
+        "relativeTop": 74.33935546875,
+        "overlapsCardEdge": true,
+        "visible": true,
+        "width": 76.42779541015625,
+        "opacity": "1"
+      }
+    },
+    {
+      "name": "instagram heart 1440",
+      "passed": true,
+      "detail": {
+        "outerScale": "none",
+        "innerTransform": "none",
+        "relativeTop": 45.342529296875,
+        "overlapsCardEdge": true,
+        "visible": true,
+        "width": 81.64111328125,
+        "opacity": "1"
+      }
+    },
+    {
+      "name": "no misplaced heart on photo spot 1440",
+      "passed": true
+    },
+    {
+      "name": "event overflow 1440",
+      "passed": true
+    },
+    {
+      "name": "sticker heart 393",
+      "passed": true,
+      "detail": {
+        "outerScale": "none",
+        "innerTransform": "none",
+        "relativeTop": 74.33928464933206,
+        "overlapsCardEdge": true,
+        "visible": true,
+        "width": 76.42112766877386,
+        "opacity": "1"
+      }
+    },
+    {
+      "name": "instagram heart 393",
+      "passed": true,
+      "detail": {
+        "outerScale": "none",
+        "innerTransform": "none",
+        "relativeTop": 45.344256917938935,
+        "overlapsCardEdge": true,
+        "visible": true,
+        "width": 81.63374666403269,
+        "opacity": "1"
+      }
+    },
+    {
+      "name": "no misplaced heart on photo spot 393",
+      "passed": true
+    },
+    {
+      "name": "event overflow 393",
+      "passed": true
+    },
+    {
+      "name": "sticker heart 320",
+      "passed": true,
+      "detail": {
+        "outerScale": "none",
+        "innerTransform": "none",
+        "relativeTop": 74.33944244384766,
+        "overlapsCardEdge": true,
+        "visible": true,
+        "width": 76.43032379150391,
+        "opacity": "1"
+      }
+    },
+    {
+      "name": "instagram heart 320",
+      "passed": true,
+      "detail": {
+        "outerScale": "none",
+        "innerTransform": "none",
+        "relativeTop": 45.3425537109375,
+        "overlapsCardEdge": true,
+        "visible": true,
+        "width": 81.64127368927002,
+        "opacity": "1"
+      }
+    },
+    {
+      "name": "no misplaced heart on photo spot 320",
+      "passed": true
+    },
+    {
+      "name": "event overflow 320",
+      "passed": true
+    },
+    {
+      "name": "no remaining decoration parent scaling",
+      "passed": true
+    },
+    {
+      "name": "Back unchanged",
+      "passed": true
+    },
+    {
+      "name": "v2 left alignment preserved",
+      "passed": true
+    },
+    {
+      "name": "modal/link/scroll regression",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

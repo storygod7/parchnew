@@ -1,0 +1,785 @@
+{
+  "page1": [
+    {
+      "id": "0:9",
+      "name": "左固定",
+      "x": "2935",
+      "y": "17",
+      "width": "412",
+      "height": "832"
+    },
+    {
+      "id": "0:800",
+      "name": "右固定",
+      "x": "3803",
+      "y": "17",
+      "width": "412",
+      "height": "832"
+    },
+    {
+      "id": "0:846",
+      "name": "メイン_456px",
+      "x": "3347",
+      "y": "17",
+      "width": "456",
+      "height": "15378"
+    },
+    {
+      "id": "0:4129",
+      "name": "ギフトロゴ",
+      "x": "2188",
+      "y": "8502",
+      "width": "213",
+      "height": "230"
+    },
+    {
+      "id": "0:4160",
+      "name": "ファッションロゴ",
+      "x": "2274",
+      "y": "5733",
+      "width": "219",
+      "height": "430"
+    },
+    {
+      "id": "0:4212",
+      "name": "グルメロゴ",
+      "x": "2213",
+      "y": "2094",
+      "width": "219",
+      "height": "630"
+    },
+    {
+      "id": "0:4291",
+      "name": "イベント下層_456px",
+      "x": "4721",
+      "y": "17",
+      "width": "456",
+      "height": "4626"
+    },
+    {
+      "id": "0:5191",
+      "name": "Group 41",
+      "x": "4725",
+      "y": "1717",
+      "width": "56",
+      "height": "63.43553924560547"
+    },
+    {
+      "id": "0:5237",
+      "name": "スマホ",
+      "x": "1622",
+      "y": "0",
+      "width": "456",
+      "height": "832"
+    },
+    {
+      "id": "0:5982",
+      "name": "Frame 6",
+      "x": "2324",
+      "y": "1355",
+      "width": "200",
+      "height": "317"
+    },
+    {
+      "id": "0:5992",
+      "name": "Frame 12",
+      "x": "2314",
+      "y": "1087",
+      "width": "200",
+      "height": "200"
+    },
+    {
+      "id": "0:5998",
+      "name": "Group 20",
+      "x": "3874",
+      "y": "7469",
+      "width": "456",
+      "height": "115"
+    },
+    {
+      "id": "0:6021",
+      "name": "Group 23",
+      "x": "3874",
+      "y": "7279",
+      "width": "456",
+      "height": "115"
+    },
+    {
+      "id": "0:6044",
+      "name": "Group 21",
+      "x": "3874",
+      "y": "10953",
+      "width": "456",
+      "height": "115"
+    },
+    {
+      "id": "0:6067",
+      "name": "Group 24",
+      "x": "3874",
+      "y": "10800",
+      "width": "456",
+      "height": "115"
+    },
+    {
+      "id": "0:6090",
+      "name": "Group 22",
+      "x": "3874",
+      "y": "2599",
+      "width": "456",
+      "height": "115"
+    },
+    {
+      "id": "0:6113",
+      "name": "Group 25",
+      "x": "3874",
+      "y": "2446",
+      "width": "456",
+      "height": "115"
+    },
+    {
+      "id": "0:6136",
+      "name": "ハンバーガーメニュー内",
+      "x": "2137",
+      "y": "0",
+      "width": "456",
+      "height": "832"
+    },
+    {
+      "id": "0:6194",
+      "name": "メモ",
+      "x": "1650",
+      "y": "1055",
+      "width": "614",
+      "height": "560"
+    },
+    {
+      "id": "0:6201",
+      "name": "グルメサムネ",
+      "x": "1663",
+      "y": "2094",
+      "width": "423",
+      "height": "2876"
+    },
+    {
+      "id": "0:6228",
+      "name": "ファッションサムネ",
+      "x": "1663",
+      "y": "5733",
+      "width": "423",
+      "height": "1984"
+    },
+    {
+      "id": "0:6246",
+      "name": "ギフトサムネ",
+      "x": "1663",
+      "y": "8502",
+      "width": "423",
+      "height": "1092"
+    },
+    {
+      "id": "0:6257",
+      "name": "扉アニメーション",
+      "x": "0",
+      "y": "17",
+      "width": "1280",
+      "height": "832"
+    }
+  ],
+  "page2": [
+    {
+      "id": "1:491",
+      "name": "Frame 35",
+      "x": "0",
+      "y": "0",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": false
+    },
+    {
+      "id": "1:534",
+      "name": "Frame 74",
+      "x": "1454",
+      "y": "0",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": true,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:577",
+      "name": "Frame 75",
+      "x": "1988",
+      "y": "0",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:620",
+      "name": "Frame 76",
+      "x": "2530",
+      "y": "0",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": true,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:663",
+      "name": "Frame 77",
+      "x": "3056",
+      "y": "0",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:706",
+      "name": "Frame 78",
+      "x": "3590",
+      "y": "0",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": true,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:749",
+      "name": "Frame 79",
+      "x": "4124",
+      "y": "0",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": true,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:792",
+      "name": "Frame 80",
+      "x": "4658",
+      "y": "0",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": true,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:835",
+      "name": "Frame 81",
+      "x": "5192",
+      "y": "0",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": true,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:878",
+      "name": "Frame 82",
+      "x": "5726",
+      "y": "0",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": true,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:921",
+      "name": "Frame 83",
+      "x": "6260",
+      "y": "0",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": true,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:964",
+      "name": "Frame 84",
+      "x": "6794",
+      "y": "0",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": true,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1007",
+      "name": "Frame 85",
+      "x": "7328",
+      "y": "0",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": true,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1050",
+      "name": "Frame 86",
+      "x": "7862",
+      "y": "0",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1093",
+      "name": "Frame 87",
+      "x": "8396",
+      "y": "0",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": true,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1136",
+      "name": "Frame 88",
+      "x": "8930",
+      "y": "0",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": true,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1179",
+      "name": "Frame 89",
+      "x": "9464",
+      "y": "0",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1222",
+      "name": "Frame 90",
+      "x": "9998",
+      "y": "0",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": true,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1265",
+      "name": "Frame 64",
+      "x": "1454",
+      "y": "1198",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1308",
+      "name": "Frame 65",
+      "x": "1988",
+      "y": "1198",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1351",
+      "name": "Frame 66",
+      "x": "2530",
+      "y": "1198",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1394",
+      "name": "Frame 67",
+      "x": "3056",
+      "y": "1198",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1437",
+      "name": "Frame 68",
+      "x": "3590",
+      "y": "1198",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1480",
+      "name": "Frame 69",
+      "x": "4124",
+      "y": "1198",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": true,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1523",
+      "name": "Frame 70",
+      "x": "4658",
+      "y": "1198",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1566",
+      "name": "Frame 71",
+      "x": "5192",
+      "y": "1198",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": true,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1609",
+      "name": "Frame 72",
+      "x": "5726",
+      "y": "1198",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": true,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1652",
+      "name": "Frame 73",
+      "x": "6260",
+      "y": "1198",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1695",
+      "name": "Frame 63",
+      "x": "1454",
+      "y": "2396",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1696",
+      "name": "Frame 58",
+      "x": "12668",
+      "y": "2396",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1697",
+      "name": "Frame 59",
+      "x": "13202",
+      "y": "2396",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1698",
+      "name": "Frame 60",
+      "x": "13736",
+      "y": "2396",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1741",
+      "name": "Frame 61",
+      "x": "14270",
+      "y": "2396",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1742",
+      "name": "Frame 62",
+      "x": "14804",
+      "y": "2396",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1743",
+      "name": "Frame 53",
+      "x": "9998",
+      "y": "2396",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1744",
+      "name": "Frame 54",
+      "x": "10532",
+      "y": "2396",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": true,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1787",
+      "name": "Frame 55",
+      "x": "11066",
+      "y": "2396",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1830",
+      "name": "Frame 56",
+      "x": "11600",
+      "y": "2396",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1831",
+      "name": "Frame 57",
+      "x": "12134",
+      "y": "2396",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1832",
+      "name": "Frame 40",
+      "x": "3056",
+      "y": "2396",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1873",
+      "name": "Frame 41",
+      "x": "3590",
+      "y": "2396",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1914",
+      "name": "Frame 42",
+      "x": "4124",
+      "y": "2396",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:1957",
+      "name": "Frame 43",
+      "x": "4658",
+      "y": "2396",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:2000",
+      "name": "Frame 44",
+      "x": "5192",
+      "y": "2396",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:2041",
+      "name": "Frame 45",
+      "x": "5726",
+      "y": "2396",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:2084",
+      "name": "Frame 46",
+      "x": "6260",
+      "y": "2396",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:2125",
+      "name": "Frame 47",
+      "x": "6794",
+      "y": "2396",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:2166",
+      "name": "Frame 48",
+      "x": "7328",
+      "y": "2396",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:2207",
+      "name": "Frame 49",
+      "x": "7862",
+      "y": "2396",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:2248",
+      "name": "Frame 50",
+      "x": "8396",
+      "y": "2396",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:2289",
+      "name": "Frame 51",
+      "x": "8930",
+      "y": "2396",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": true,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:2330",
+      "name": "Frame 52",
+      "x": "9464",
+      "y": "2396",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:2373",
+      "name": "Frame 38",
+      "x": "1988",
+      "y": "2396",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": true,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    },
+    {
+      "id": "1:2416",
+      "name": "Frame 39",
+      "x": "2522",
+      "y": "2396",
+      "width": "456",
+      "height": "1004",
+      "cachedMcpContextAvailable": false,
+      "localFigSourceRecovered": true,
+      "implementedModal": true
+    }
+  ],
+  "note": "Original metadata names can be stale; implementation uses recovered textData. cachedMcpContextAvailable records earlier tool acquisition, not current source availability."
+}

@@ -1,0 +1,1460 @@
+{
+  "checks": [
+    {
+      "name": "accordion gourmet 0",
+      "passed": true,
+      "detail": 26
+    },
+    {
+      "name": "accordion gourmet 1",
+      "passed": true,
+      "detail": 6
+    },
+    {
+      "name": "accordion gourmet 2",
+      "passed": true,
+      "detail": 26
+    },
+    {
+      "name": "accordion fashion 0",
+      "passed": true,
+      "detail": 17
+    },
+    {
+      "name": "accordion fashion 1",
+      "passed": true,
+      "detail": 6
+    },
+    {
+      "name": "accordion fashion 2",
+      "passed": true,
+      "detail": 17
+    },
+    {
+      "name": "accordion goods 0",
+      "passed": true,
+      "detail": 10
+    },
+    {
+      "name": "accordion goods 1",
+      "passed": true,
+      "detail": 6
+    },
+    {
+      "name": "accordion goods 2",
+      "passed": true,
+      "detail": 10
+    },
+    {
+      "name": "modal 1",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1695",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/17",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 1230,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 2",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-2373",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/31",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 1230,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 3",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-2416",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/69",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 1264,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 4",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1832",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/67",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 1282,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 5",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1873",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/162",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 1862,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 6",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1914",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/65",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 1862,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 7",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1957",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/61",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 1863,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 8",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-2000",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/66",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 1881,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 9",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-2041",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/187",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 2460,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 10",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-2084",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/2",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 2460,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 11",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-2125",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/163",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 2461,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 12",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-2166",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/172",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 2461,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 13",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-2207",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/32",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 3041,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 14",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-2248",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/82",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 3041,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 15",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-2289",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/81",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 3042,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 16",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-2330",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/48",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 3042,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 17",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1743",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/51",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 3622,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 18",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1744",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/178",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 3622,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 19",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1787",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/122",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 3623,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 20",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1830",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/46",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 3644,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 21",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1831",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/21",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 4223,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 22",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1696",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/174",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 4223,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 23",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1697",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/71",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 4224,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 24",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1698",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/173",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 4224,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 25",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1741",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/183",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 4804,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 26",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1742",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/53",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 4804,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 27",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-534",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/22",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 5516,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 28",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-577",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/19",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 5516,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 29",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-620",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/26",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 5574,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 30",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-663",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/1",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 5574,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 31",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-706",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/14",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 6154,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 32",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-749",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/12",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 6154,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 33",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-792",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/93",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 6191,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 34",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-835",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/95",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 6191,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 35",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-878",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/84",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 6771,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 36",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-921",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/148",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 6771,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 37",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-964",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/85",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 6792,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 38",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1007",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/86",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 6792,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 39",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1050",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/88",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 7372,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 40",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1093",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/94",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 7372,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 41",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1136",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/100",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 7373,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 42",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1179",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/105",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 7373,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 43",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1222",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/112",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 7953,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 44",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1265",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/145",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 8644,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 45",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1308",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/6",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 8644,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 46",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1351",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/29",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 8663,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 47",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1394",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/25",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 8663,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 48",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1437",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/96",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 9243,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 49",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1480",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/168",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 9243,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 50",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1523",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/109",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 9244,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 51",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1566",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/154",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 9244,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 52",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1609",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/115",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 9824,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "modal 53",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "overflow": false,
+        "kind": "node-1-1652",
+        "locked": true,
+        "link": "https://www.parche.co.jp/tenants/160",
+        "rect": [
+          0,
+          852,
+          852
+        ],
+        "after": {
+          "locked": "",
+          "scroll": 9824,
+          "open": false
+        }
+      }
+    },
+    {
+      "name": "profile 0:912",
+      "passed": true
+    },
+    {
+      "name": "profile 0:3410",
+      "passed": true
+    },
+    {
+      "name": "profile 0:3818",
+      "passed": true
+    },
+    {
+      "name": "profile 0:1201",
+      "passed": true
+    },
+    {
+      "name": "menu gourmet",
+      "passed": true,
+      "detail": {
+        "top": 0,
+        "bottom": 852,
+        "h": 852
+      }
+    },
+    {
+      "name": "menu fashion",
+      "passed": true,
+      "detail": {
+        "top": 0,
+        "bottom": 852,
+        "h": 852
+      }
+    },
+    {
+      "name": "menu goods",
+      "passed": true,
+      "detail": {
+        "top": 0,
+        "bottom": 852,
+        "h": 852
+      }
+    },
+    {
+      "name": "menu event",
+      "passed": true,
+      "detail": {
+        "top": 0,
+        "bottom": 852,
+        "h": 852
+      }
+    },
+    {
+      "name": "index.html width 320",
+      "passed": true,
+      "detail": {
+        "width": 320,
+        "scroll": 320,
+        "images": []
+      }
+    },
+    {
+      "name": "index.html width 375",
+      "passed": true,
+      "detail": {
+        "width": 375,
+        "scroll": 375,
+        "images": []
+      }
+    },
+    {
+      "name": "index.html width 393",
+      "passed": true,
+      "detail": {
+        "width": 393,
+        "scroll": 393,
+        "images": []
+      }
+    },
+    {
+      "name": "index.html width 456",
+      "passed": true,
+      "detail": {
+        "width": 456,
+        "scroll": 456,
+        "images": []
+      }
+    },
+    {
+      "name": "index.html width 768",
+      "passed": true,
+      "detail": {
+        "width": 768,
+        "scroll": 768,
+        "images": []
+      }
+    },
+    {
+      "name": "index.html width 900",
+      "passed": true,
+      "detail": {
+        "width": 900,
+        "scroll": 900,
+        "images": []
+      }
+    },
+    {
+      "name": "index.html width 901",
+      "passed": true,
+      "detail": {
+        "width": 901,
+        "scroll": 901,
+        "images": []
+      }
+    },
+    {
+      "name": "index.html width 1024",
+      "passed": true,
+      "detail": {
+        "width": 1024,
+        "scroll": 1024,
+        "images": []
+      }
+    },
+    {
+      "name": "index.html width 1440",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scroll": 1440,
+        "images": []
+      }
+    },
+    {
+      "name": "index.html width 1920",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "scroll": 1920,
+        "images": []
+      }
+    },
+    {
+      "name": "index.html footer links",
+      "passed": true,
+      "detail": [
+        "https://www.parche.co.jp/",
+        "https://www.parche.co.jp/company/",
+        "https://www.parche.co.jp/privacypolicy/",
+        "https://www.parche.co.jp/contact/",
+        "https://www.instagram.com/shizuokaekibiru_parche/",
+        "https://line.me/R/ti/p/zOGjK9zn7h"
+      ]
+    },
+    {
+      "name": "events.html width 320",
+      "passed": true,
+      "detail": {
+        "width": 320,
+        "scroll": 320,
+        "images": []
+      }
+    },
+    {
+      "name": "events.html width 375",
+      "passed": true,
+      "detail": {
+        "width": 375,
+        "scroll": 375,
+        "images": []
+      }
+    },
+    {
+      "name": "events.html width 393",
+      "passed": true,
+      "detail": {
+        "width": 393,
+        "scroll": 393,
+        "images": []
+      }
+    },
+    {
+      "name": "events.html width 456",
+      "passed": true,
+      "detail": {
+        "width": 456,
+        "scroll": 456,
+        "images": []
+      }
+    },
+    {
+      "name": "events.html width 768",
+      "passed": true,
+      "detail": {
+        "width": 768,
+        "scroll": 768,
+        "images": []
+      }
+    },
+    {
+      "name": "events.html width 900",
+      "passed": true,
+      "detail": {
+        "width": 900,
+        "scroll": 900,
+        "images": []
+      }
+    },
+    {
+      "name": "events.html width 901",
+      "passed": true,
+      "detail": {
+        "width": 901,
+        "scroll": 901,
+        "images": []
+      }
+    },
+    {
+      "name": "events.html width 1024",
+      "passed": true,
+      "detail": {
+        "width": 1024,
+        "scroll": 1024,
+        "images": []
+      }
+    },
+    {
+      "name": "events.html width 1440",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scroll": 1440,
+        "images": []
+      }
+    },
+    {
+      "name": "events.html width 1920",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "scroll": 1920,
+        "images": []
+      }
+    },
+    {
+      "name": "events.html footer links",
+      "passed": true,
+      "detail": [
+        "https://www.parche.co.jp/",
+        "https://www.parche.co.jp/company/",
+        "https://www.parche.co.jp/privacypolicy/",
+        "https://www.parche.co.jp/contact/",
+        "https://www.instagram.com/shizuokaekibiru_parche/",
+        "https://line.me/R/ti/p/zOGjK9zn7h"
+      ]
+    },
+    {
+      "name": "Back label/destination",
+      "passed": true
+    },
+    {
+      "name": "opening timeline 393",
+      "passed": false,
+      "detail": {
+        "stage1": {
+          "chars": [
+            "0.2808",
+            "0.2808",
+            "0.2808",
+            "0.2808"
+          ],
+          "titles": [
+            "0"
+          ]
+        },
+        "stage2": true
+      }
+    },
+    {
+      "name": "opening timeline 1440",
+      "passed": false,
+      "detail": {
+        "stage1": {
+          "chars": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "titles": [
+            "0",
+            "0"
+          ]
+        },
+        "stage2": false
+      }
+    }
+  ],
+  "errors": []
+}
