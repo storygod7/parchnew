@@ -1,79 +1,22 @@
-# Parche Christmas — 2026-10-26 v3 수정 검토본
+# Parché Christmas 2026
 
-고객 수정 요청을 반영한 HTML/CSS/JavaScript 로컬 검토본입니다. 배포·고객 발송은 하지 않았습니다. 확정되지 않은 날짜·가격·이미지는 원본 그대로 남아 있습니다.
+Static HTML, CSS and JavaScript site. The main page is `index.html`; event details are in `events.html`. No build step is required.
 
-## 미리보기
+## Local preview
 
-`index.html`을 Chrome에서 여세요. 이벤트 상세는 `events.html`입니다. 설치나 빌드 없이 실행하며 이미지와 폰트를 로컬에서 읽습니다. 첫 메인 진입에서 5.5초 오프닝이 재생됩니다. Skip으로 건너뛸 수 있습니다. 해시 목적지로 직접 접근하거나 기기의 동작 줄이기가 켜져 있으면 오프닝을 생략합니다. 이벤트 상세에서는 재생하지 않습니다.
+```sh
+python3 -m http.server 8765 --bind 127.0.0.1
+```
 
-## v3 Back 그래픽 복원
+Open http://127.0.0.1:8765/ .
 
-추가 첨부 PNG 2장을 실제로 확인했습니다. 원본 .fig에서 `0:5133`(자식 `0:5135`–`0:5138`)은 텍스트가 아니라 네 개 벡터 경로인 것을 확인했습니다. 경로를 그대로 `assets/back-0-5133.svg`에 추출해 적용했습니다. 회색 `#808080`, 47.178436 × 17px, 이벤트 프레임 기준 x=204/y=4132를 유지하며 모바일에서는 페이지 비율로 축소합니다. 링크 클릭 영역만 여백을 추가했고 접근 가능한 이름은 Back, 목적지는 기존 `index.html#event`입니다.
+## v4 update
 
-`evidence/revision-v3-back-source.json`에 원본 속성을, `revision-v3-back-qa.json`에 실제 렌더 치수와 키보드 이동 검사 결과를 기록했습니다. 기존 기본 폰트 Back은 제거했습니다. 하트 수정 직후의 ZIP은 `../parche-christmas-revised-20261026-v3-hearts.zip`에 추가 보존했습니다.
+- Sticky mobile header, header-aware profile navigation, modal/menu fades, and keyboard-accessible focus treatment.
+- Footer logo and social links have individual hit areas. External links open in a new tab; internal Back stays in the current tab.
+- Corrected desktop background/snow, Goods illustration proportions, and post-opening scroll position.
+- Copyright 2026; floating TOP removed while footer TOP remains.
+- Product details load once on first demand from `modal-data.js`; lower-page images use lazy loading.
+- WOFF2 subsets retain all supported characters used by the current pages and 53 product details. Original TTF files remain preserved. Font license: `assets/OFL.txt`. If text changes, regenerate the subsets or restore full font coverage. The original font does not contain 凮; system fallback remains in use for that character.
 
-## v3 하트 위치 수정
-
-사용자가 보낸 네 쌍의 PNG(총 8개)를 이 Mac에 내려받아 실제 픽셀을 확인했습니다. 첫 번째와 세 번째 쌍은 같은 스티커 카드 오른쪽의 보라색 하트 누락이며, 두 번째는 포토스폿 이미지 위에 잘못 나타난 보라색 하트입니다. 네 번째는 Instagram 캠페인 카드 왼쪽 하트 누락이며, 아래 동일 원인 수정으로 복원한 레이어와 실제 첨부를 대조했습니다.
-
-원인은 원본 transform 행렬로 위치가 지정된 장식의 부모에 CSS scale을 추가해 위치 이동량까지 축소한 것이었습니다. 원본에 이미 저장된 크기와 각도를 그대로 사용하도록 불필요한 부모 scale을 제거했습니다. 하트 이미지를 새로 추가하거나 임의로 그리지 않았습니다. 포토스폿으로 이동했던 하트가 스티커 오른쪽으로 복원됩니다. 동일한 처리로 위치가 틀어진 Instagram 분홍 하트도 원본 위치·크기·각도로 복원했습니다.
-
-`evidence/revision-v3-qa.json`: 관련 검사 **16/16 통과**, JS 오류 없음. PC 1440px 및 모바일 393px/320px에서 스티커·Instagram 하트 위치와 포토스폿 내 불필요한 하트 부재를 검사하고 실제 캡처를 비교했습니다. 가로 넘침, 다른 장식의 부모 scale, Back, v2 왼쪽 정렬, 대표 모달·링크·스크롤 복귀도 확인했습니다. 기존 53개 전체 모달 검사를 v3에서 다시 실행했다는 뜻은 아닙니다. 실제 휴대폰/Safari/Firefox 및 전체 Figma 픽셀 비교는 기존 제한 그대로입니다.
-
-## v2 본문 정렬 수정
-
-사용자가 첨부한 두 PNG를 Mac에 내려받아 실제 픽셀을 확인했습니다. 니ガクナイコウチャ / by green eight 상품 카드의 매장명 두 줄을 왼쪽 정렬로 수정했습니다. 이전 줄바꿈 보정에 잘못 추가했던 중앙 정렬 한 곳만 변경했습니다. 제목·로고·모달 제목 등 의도적인 중앙 배치는 유지합니다.
-
-`evidence/revision-v2-qa.json`은 이번 수정의 검사 결과입니다. 53개 카드의 매장명/본문 정렬을 점검하고, PC 1440px·모바일 393px/320px의 실제 화면, 해당 상품 모달/Shop info/포커스 복귀와 넘침을 검사합니다. 아래 95/95 등은 v1 검사 기록이며 v2에서 전체를 다시 실행했다는 뜻이 아닙니다.
-
-## v1 수정 내역
-
-- PC 좌우 배경을 각 영역 전체에 채우고 기존 고정 위치를 유지하면서 아트 묶음을 중앙에 배치했습니다.
-- Goods 나카무라군을 원본 143 × 139.5269 비율로 복원했습니다. 니ガクナイコウチャ 매장명을 두 줄로 정리했습니다.
-- 이벤트 목록과 상세의 원본 텍스트/레이어를 복원했습니다. 날짜·장소의 주황색 ●, 사진 아래 여백/주석, POP UP SHOP 이미지, 작은 기울어진 하트, 스티커 왼쪽 사슴, Instagram A상 전체 명칭, 위로 옮긴 GIFTCARD를 반영했습니다.
-- 하단 표시를 화살표 없는 `Back`으로 수정했습니다. 기존 목적지 `index.html#event`를 유지합니다.
-- 모바일 모달/메뉴를 웹 콘텐츠 뷰포트 전체에 맞췄습니다. 브라우저 주소창·도구막대를 제어하지 않습니다. 메뉴 네 버튼을 원본 280px의 1.25배인 350px로 확대하고 중앙 배치했습니다. 고객의 “0,5倍ほど大きく”가 모호해 25% 확대를 적용한 가정이며 실제 화면은 `evidence/revision-menu-393.png`에서 확인할 수 있습니다.
-- 원본 레이어로 PC 문 시안 `0:6257`과 모바일 메인 KV 오프닝을 구현했습니다. 배경 0–0.5초, 장식 0.5초부터 시차, 캐릭터 1.5–2.5초, 제목 2.5–3.5초, 전체 5–5.5초 페이드아웃입니다. 모바일 캐릭터는 위/아래에서, PC 캐릭터는 좌/우에서 중앙 방향으로 진입합니다.
-- 장식 부유, 모달 페이드, View more 펼침/접힘 애니메이션, hover, 푸터 근처에서 숨기는 TOP 추적 버튼을 추가했습니다. 동작 줄이기 환경에서는 장식/오프닝을 생략합니다.
-- Excel의 53개 Shop info URL, SNS/푸터/로고 링크를 연결했습니다. 층수·연도는 변경하지 않았습니다.
-- 원본 줄 좌표와 개행 문자가 중복 적용되어 글자가 겹치던 변환 문제를 수정했습니다. 텍스트는 실제 HTML이며 전체 화면을 이미지로 대체하지 않았습니다.
-
-## 범위와 파일
-
-메인 + 이벤트 상세 2페이지, Gourmet 26/Fashion 17/Goods 10개, 서로 다른 상품 모달 53개, 캐릭터 소개 4명, 모바일 메뉴가 있습니다. 상품은 각 섹션 처음 6개를 보여주고 View more로 전체를 열고 닫습니다.
-
-- `app.js`, `styles.css`: 구성과 기본 동작
-- `revisions.js`, `revisions.css`: 이번 수정과 연출
-- `shop-links.js`: 제공 Excel의 53개 URL
-- `design-data.js`, `design.css`: 기존 Figma 컨텍스트
-- `recovered-data.js`: 사용자 제공 원본 .fig에서 복구한 살아 있는 텍스트·SVG·이미지 레이어
-- `assets/`: 원본 이미지/벡터와 M PLUS Rounded 1c 500/800/900 로컬 폰트
-- `evidence/revision-*`: 이번 실제 렌더와 검사 결과. 이전 검사 파일은 이전 시점의 기록입니다.
-
-원본 .fig는 작업 폴더 옆 `source-fig/`에 보존했습니다. Figma 도구 할당량을 재시도하거나 우회하지 않았고, 외부 소프트웨어 설치나 새 Figma 업로드도 하지 않았습니다.
-
-## 검증과 한계
-
-이번 Chrome 검사는 기능/반응형/링크/연출 **95/95**, 추가 키보드/메뉴/추적/배경/폰트/이미지 **15/15**, 모달 일본어 텍스트의 화면 가로 경계 **53/53** 통과했습니다. JS 예외는 없었습니다.
-
-이번 검증 결과는 `evidence/revision-qa.json`과 `evidence/revision-extra-qa.json`을 기준으로 확인하세요. 체크의 `passed`가 실제 검사 결과이며 이전 QA 숫자는 이번 수정본 전체의 통과를 뜻하지 않습니다. 검사는 설치된 Chrome의 격리된 headless 세션에서 수행합니다. 실제 iPhone/Safari/Firefox 검증은 수행하지 않았습니다. Safari 원격 자동화 설정이 비활성이고 Firefox가 설치되지 않은 기존 제한을 변경하지 않았습니다.
-
-수정 PDF 3+6페이지 및 메뉴 PNG의 실제 픽셀과 로컬 렌더를 비교했습니다. 원본 노드의 크기·좌표·타이포그래피·이미지 경로를 활용했습니다. 다만 모든 복구 화면의 고해상도 Figma 렌더가 없으므로 53개 전체의 픽셀 일치를 보장하지 않습니다. 원본 .fig의 작은 썸네일만으로 시각적 완전 일치를 판단하지 않습니다.
-
-## 확인이 남은 내용
-
-- Flora45: LP의 `1F`를 유지했습니다. Excel에는 공식 사이트 `食彩館`과 불일치 메모가 있습니다.
-- copyright `2024`를 유지했습니다. 변경 연도 확인이 필요합니다.
-- Back 목적지: 기존 이벤트 영역을 유지했습니다. TOP 최상단으로 바꿀지 확인이 필요합니다.
-- 메뉴 확대 1.25배와 오프닝 재방문 조건(현재 메인 페이지를 새로 열 때 재생)은 확인용 가정입니다.
-- 회색 이벤트 이미지, `0,000円`, 미정 날짜와 원고는 최종 자료가 필요합니다. 임의로 완성하지 않았습니다.
-- 푸터 구성은 현재 제공 디자인을 유지하며 링크만 확정 자료로 연결했습니다.
-
-## 원본 보존과 ZIP
-
-원본 소스: `../parche-christmas-before-revisions-20261026/`.
-기존 `parche-christmas-review.zip` 및 이전 ZIP들은 보존했습니다.
-이번 별도 수정 패키지: `../parche-christmas-revised-20261026-v3.zip`.
-기존 v2 `parche-christmas-revised-20261026-v2.zip`도 보존했습니다.
-기존 v1 `parche-christmas-revised-20261026.zip`도 그대로 보존했습니다.
-이 ZIP은 검토용이며 고객 최종본이나 배포 완료본이 아닙니다. 지원되지 않았던 Library 업로드는 재시도하지 않았습니다.
+Chrome verification covered all 53 product modals, four profile targets, menu, accordions, link mappings and responsive widths 320–1440px. Actual iPhone/Safari/Firefox and all external destination pages were not tested. Pending source content remains unchanged.

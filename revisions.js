@@ -19,7 +19,7 @@ for(const [label,url] of [['会社情報','https://www.parche.co.jp/company/'],[
 // Original footer icon groups, resolved from source node names/geometry.
 linkNode('0:880','https://line.me/R/ti/p/zOGjK9zn7h','LINE');
 linkNode('0:879','https://www.instagram.com/shizuokaekibiru_parche/','Instagram');
-const topArt=node('0:891');if(topArt){action(topArt,()=>window.scrollTo({top:0,behavior:'smooth'}),'TOP');const b=document.createElement('button');b.className='tracking-top';b.setAttribute('aria-label','ページ先頭へ');b.innerHTML=topArt.innerHTML;b.onclick=()=>window.scrollTo({top:0,behavior:'smooth'});document.body.append(b);const update=()=>{const near=$('#footer').getBoundingClientRect().top<innerHeight+90;b.hidden=near||scrollY<450;};window.addEventListener('scroll',update,{passive:true});window.addEventListener('resize',update);update();}
+const topArt=node('0:891');if(topArt)action(topArt,()=>window.scrollTo({top:0,behavior:'smooth'}),'TOP');
 // Keep the original matrix (including tilt); floating uses the independent translate property.
 $$('[data-name]').filter(e=>/AS_.*(heart|star|snow|spakle)/.test(e.dataset.name)&&!e.closest('dialog')).forEach((e,i)=>{e.classList.add('floating-decoration');e.style.animationDelay=-(i%7)*.45+'s';});
 // Menu buttons are 1.25x the 280px source width, centered within 456px.
@@ -42,7 +42,7 @@ function startOpening(){if(shouldOpen){document.documentElement.classList.remove
  decors.forEach((e,i)=>e.animate([{opacity:0},{opacity:1}],{delay:500+(i%10)*65,duration:500,fill:'both'}));
  chars.forEach((id,i)=>{const e=node(id,canvas);e.dataset.openingRole='character';const vertical=mobile?(i%2===0?-110:110):0,horizontal=mobile?0:(i<2?110:-110);e.animate([{opacity:0,translate:`${horizontal}px ${vertical}px`},{opacity:1,translate:'0px 0px'}],{delay:1500,duration:1000,easing:'cubic-bezier(.2,.7,.3,1)',fill:'both'});});
  titles.forEach(id=>{const e=node(id,canvas);e.dataset.openingRole='title';e.animate([{opacity:0},{opacity:1}],{delay:2500,duration:1000,fill:'both'});});
- let done=false;function finish(){if(done)return;done=true;overlay.remove();page.inert=false;document.body.style.overflow=oldOverflow;removeEventListener('resize',size);window.dispatchEvent(new Event('openingfinished'));}
+ let done=false;function finish(){if(done)return;done=true;overlay.remove();page.inert=false;document.body.style.overflow=oldOverflow;removeEventListener('resize',size);window.dispatchEvent(new Event('openingfinished'));if(!mobile)navigate('intro');}
  skip.onclick=finish;overlay.animate([{opacity:1},{opacity:0}],{delay:5000,duration:500,fill:'forwards'}).finished.then(finish);
 }}
 if(document.readyState==='complete')startOpening();else addEventListener('load',startOpening,{once:true});
@@ -59,3 +59,27 @@ if(!isEvent){
 }
 
 function fitSides(){document.documentElement.style.setProperty('--side-scale',Math.min(1,(innerWidth-456)/2/412));}fitSides();addEventListener('resize',fitSides);
+
+// 27 October customer amendments. Keep keyboard focus, suppress pointer-only rings.
+addEventListener('pointerdown',()=>document.documentElement.dataset.input='pointer',true);
+addEventListener('keydown',e=>{if(['Tab','ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(e.key))document.documentElement.dataset.input='keyboard';},true);
+for(const a of $$('a[href]'))if(/^https?:/.test(a.getAttribute('href')||'')){a.target='_blank';a.rel='noopener noreferrer';}
+for(const p of $$('p',$('#footer')))if(p.textContent.includes('2024'))p.innerHTML=p.innerHTML.replace('2024','2026');
+for(const img of $$('img')){img.decoding='async';if(img.closest('.product-section,.event-preview,.character-intro,.event-detail,.footer'))img.loading='lazy';}
+
+// Bound the hit areas to the exact source footer rectangles, even if a group uses display:contents.
+for(const [id,x,y,w,h] of [['0:848',114,197,228,75.1188736],['0:880',155,109,50,50],['0:879',252,109,50,50]]){
+ const a=node(id)?.querySelector('a.node-link');if(a){$('#footer').append(a);Object.assign(a.style,{inset:'auto',left:x+'px',top:y+'px',width:w+'px',height:h+'px'});}
+}
+for(const [button,profile,name] of [['0:912','0:2218','pompom'],['0:3410','0:1973','berrie'],['0:3818','0:1738','nakamura'],['0:1201','0:2295','minto']]){
+ const target=node(profile);if(target)target.id='profile-'+name;action(node(button),()=>navigate('profile-'+name),'キャラクター紹介');
+}
+const cloudCharacter=node('0:4114');if(cloudCharacter){const t=document.createElement('template');t.innerHTML=RECOVERED['0:4114'];const e=t.content.firstElementChild;Object.assign(e.style,{position:'absolute',left:'379px',top:'91px'});cloudCharacter.replaceWith(e);}
+// Remove only the extra tree image from the right artwork, keeping the full side background.
+const rightRoot=node('0:800');if(rightRoot)rightRoot.style.backgroundImage='none';
+
+// The duplicate tree is an image child, rather than the frame's CSS background.
+node('0:800')?.querySelector(':scope > .d33')?.remove();
+for(const [id,panel] of [['0:10','#left-panel'],['0:801','#right-panel']]){const e=node(id);const img=e?.querySelector('img');if(!img)continue;const snow=document.createElement('div');snow.className='side-snow';snow.setAttribute('aria-hidden','true');snow.append(img);$(panel).append(snow);e.remove();}
+
+for(const e of $$('[title="リンク先未指定"]',$('#footer'))){e.removeAttribute('title');e.classList.remove('disabled-link');}
