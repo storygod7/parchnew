@@ -48,10 +48,10 @@ function loadModalTemplates(){
 }
 
 function restoreDialog(d){if(!d._locked)return;d._locked=false;document.body.style.position='';document.body.style.top='';document.body.style.width='';window.scrollTo({top:d._scrollY,behavior:'instant'});d._returnFocus?.focus({preventScroll:true});$('#menu-toggle').setAttribute('aria-expanded','false');}
-function openDialog(d){d._returnFocus=document.activeElement;d._scrollY=window.scrollY;d._locked=true;document.body.style.position='fixed';document.body.style.top=-d._scrollY+'px';document.body.style.width='100%';d._closing=false;d.showModal();d.classList.remove('dialog-closing');d.animate([{opacity:0},{opacity:1}],{duration:matchMedia('(prefers-reduced-motion: reduce)').matches?0:300,easing:'ease-out'});d.scrollTop=0;$('.dialog-x',d).focus();}
+function openDialog(d){d._returnFocus=document.activeElement;d._scrollY=window.scrollY;d._locked=true;document.body.style.position='fixed';document.body.style.top=-d._scrollY+'px';document.body.style.width='100%';d._closing=false;d.showModal();d.classList.remove('dialog-closing');d.animate([{opacity:0},{opacity:1}],{duration:matchMedia('(prefers-reduced-motion: reduce)').matches?0:300,easing:'ease-out'});d.scrollTop=0;($('.dialog-x',d)||d).focus({preventScroll:true});}
 function closeDialog(d){if(d._closing||!d.open)return Promise.resolve();d._closing=true;d.classList.add('dialog-closing');return d.animate([{opacity:1},{opacity:0}],{duration:matchMedia('(prefers-reduced-motion: reduce)').matches?0:300,easing:'ease-in'}).finished.then(()=>{d.close();restoreDialog(d);d._closing=false;});}
-for(const d of $$('dialog')){ $('.dialog-x',d).onclick=()=>closeDialog(d);d.addEventListener('cancel',e=>{e.preventDefault();closeDialog(d);});d.addEventListener('close',()=>{if(!d.open)restoreDialog(d);});d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closeDialog(d);}});}
-$('#menu-toggle').onclick=()=>{$('#menu-toggle').setAttribute('aria-expanded','true');openDialog($('#navigation'));};
+for(const d of $$('dialog')){ const x=$('.dialog-x',d);if(x)x.onclick=()=>closeDialog(d);d.addEventListener('cancel',e=>{e.preventDefault();closeDialog(d);});d.addEventListener('close',()=>{if(!d.open)restoreDialog(d);});d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closeDialog(d);}});}
+$('#menu-toggle').onclick=()=>{alignMenuClose();$('#menu-toggle').setAttribute('aria-expanded','true');openDialog($('#navigation'));};
 async function openProduct(card){if(card.dataset.loading)return;card.dataset.loading='true';card.setAttribute('aria-busy','true');try{await loadModalTemplates();}catch(error){card.removeAttribute('aria-busy');delete card.dataset.loading;alert(error.message);return;}card.removeAttribute('aria-busy');delete card.dataset.loading;const shop=$$('p',card)[1]?.textContent.replace(/\s+/g,'')||'';const match=modalTemplates.find(m=>shop.length>1&&m.text.includes(shop));const best=match?10:0;
  const content=$('#modal-content');content.innerHTML='';if(match&&best>4){appendHTML(content,match.markup);content.dataset.modal=match.key;content.setAttribute('aria-label',shop+' 商品詳細');for(const e of $$('[data-name="ボタン"]',content))action(e,()=>closeDialog($('#modal')),'閉じる');for(const e of $$('p',content).filter(e=>e.textContent==='Shop info')){const a=document.createElement('a');a.href=card.dataset.shopUrl;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Shop info';a.setAttribute('aria-label',shop+' ショップ情報');e.replaceChildren(a);}}
  else{content.dataset.modal='pending';appendHTML(content,'<div class="pending-modal status-note"><h2>商品詳細は制作確認中です</h2><p>この商品の詳細データとの対応を確認中です。確定していない価格・説明は補完していません。</p><button>閉じる</button></div>');$('button',content).onclick=()=>closeDialog($('#modal'));}openDialog($('#modal'));fitImageBorders($('#modal'));}
@@ -60,3 +60,11 @@ function fitImageBorders(scope=document){for(const el of $$('[data-node-id]',sco
 fitImageBorders();
 function resize(){const scale=Math.min(1,window.innerWidth/456);$('.page-width').style.setProperty('--scale',scale);for(const d of $$('dialog')){d.style.setProperty('--scale',scale);d.style.width=456*scale+'px';}}resize();window.addEventListener('resize',resize);
 if(location.hash)requestAnimationFrame(()=>{const target=document.getElementById(location.hash.slice(1));if(target)window.scrollTo({top:scrollY+target.getBoundingClientRect().top-$('.mobile-header').getBoundingClientRect().height,behavior:'instant'});});
+
+// Keep the mobile menu close circle centered on the header hamburger.
+function alignMenuClose(){
+ const x=$('#navigation .dialog-x');if(!x)return;
+ if(innerWidth<=900){const r=$('#menu-toggle').getBoundingClientRect();x.style.left=(r.left+r.width/2-20)+'px';x.style.top=(r.top+r.height/2-20)+'px';}
+ else{x.style.left='';x.style.top='';}
+}
+addEventListener('resize',()=>{if($('#navigation').open)alignMenuClose();});

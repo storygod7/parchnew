@@ -47,3 +47,11 @@ dialog[open].dialog-closing::backdrop{animation:dialog-backdrop-out .3s ease-in 
 .side-snow{position:absolute;left:0;right:0;bottom:0;pointer-events:none}.side-snow img{width:100%;height:auto}.side-art{z-index:1}
 
 .side-snow img{position:static;inset:auto}
+
+/* v5: center the CTA without moving its original right arrow. */
+[data-node-id="0:1633"]{inset:0!important;transform:none!important;width:100%!important;height:100%!important;display:flex;align-items:center;justify-content:center;text-align:center}
+[data-node-id="0:1633"]>.fig-text-line{position:static!important;line-height:1!important}
+#navigation>.dialog-x{display:grid;place-items:center;font-size:0;line-height:1}
+#navigation>.dialog-x::before,#navigation>.dialog-x::after{content:'';position:absolute;left:11px;top:19px;width:18px;height:2px;background:#e6326e;border-radius:1px;transform:rotate(45deg)}
+#navigation>.dialog-x::after{transform:rotate(-45deg)}
+@media(max-width:900px){#navigation>.dialog-x{position:fixed;float:none;right:auto;margin:0;width:40px;height:40px}}

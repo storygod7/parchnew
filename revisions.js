@@ -42,7 +42,7 @@ function startOpening(){if(shouldOpen){document.documentElement.classList.remove
  decors.forEach((e,i)=>e.animate([{opacity:0},{opacity:1}],{delay:500+(i%10)*65,duration:500,fill:'both'}));
  chars.forEach((id,i)=>{const e=node(id,canvas);e.dataset.openingRole='character';const vertical=mobile?(i%2===0?-110:110):0,horizontal=mobile?0:(i<2?110:-110);e.animate([{opacity:0,translate:`${horizontal}px ${vertical}px`},{opacity:1,translate:'0px 0px'}],{delay:1500,duration:1000,easing:'cubic-bezier(.2,.7,.3,1)',fill:'both'});});
  titles.forEach(id=>{const e=node(id,canvas);e.dataset.openingRole='title';e.animate([{opacity:0},{opacity:1}],{delay:2500,duration:1000,fill:'both'});});
- let done=false;function finish(){if(done)return;done=true;overlay.remove();page.inert=false;document.body.style.overflow=oldOverflow;removeEventListener('resize',size);window.dispatchEvent(new Event('openingfinished'));if(!mobile)navigate('intro');}
+ let done=false;function finish(){if(done)return;done=true;overlay.remove();page.inert=false;document.body.style.overflow=oldOverflow;removeEventListener('resize',size);window.dispatchEvent(new Event('openingfinished'));if(!mobile)scrollAfterOpening();}
  skip.onclick=finish;overlay.animate([{opacity:1},{opacity:0}],{delay:5000,duration:500,fill:'forwards'}).finished.then(finish);
 }}
 if(document.readyState==='complete')startOpening();else addEventListener('load',startOpening,{once:true});
@@ -83,3 +83,15 @@ node('0:800')?.querySelector(':scope > .d33')?.remove();
 for(const [id,panel] of [['0:10','#left-panel'],['0:801','#right-panel']]){const e=node(id);const img=e?.querySelector('img');if(!img)continue;const snow=document.createElement('div');snow.className='side-snow';snow.setAttribute('aria-hidden','true');snow.append(img);$(panel).append(snow);e.remove();}
 
 for(const e of $$('[title="リンク先未指定"]',$('#footer'))){e.removeAttribute('title');e.classList.remove('disabled-link');}
+
+// A measured 1.6-second ease-in/out instead of browser-dependent smooth timing.
+function scrollAfterOpening(){
+ const target=$('#intro');if(!target)return;
+ const start=scrollY,end=start+target.getBoundingClientRect().top;
+ if(matchMedia('(prefers-reduced-motion: reduce)').matches){window.scrollTo({top:end,behavior:'instant'});return;}
+ let frame=0,started;const events=['wheel','touchstart','pointerdown','keydown'];
+ const stop=()=>{cancelAnimationFrame(frame);events.forEach(e=>removeEventListener(e,stop));};
+ events.forEach(e=>addEventListener(e,stop,{passive:true}));
+ function tick(now){started??=now;const t=Math.min(1,(now-started)/1600),ease=t*t*(3-2*t);window.scrollTo({top:start+(end-start)*ease,behavior:'instant'});if(t<1)frame=requestAnimationFrame(tick);else stop();}
+ frame=requestAnimationFrame(tick);
+}
