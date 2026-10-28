@@ -7,7 +7,7 @@ function appendHTML(parent,html){const t=document.createElement('template');t.in
 function section(id,name,height){const s=document.createElement('section');s.className='section '+name;s.id=id;if(height)s.style.height=height+'px';$('#main').append(s);return s;}
 function placed(parent,id,override){const m=Object.assign({},LAYERS[id],override);const html=fragment(id);if(!html)return null;const t=document.createElement('template');t.innerHTML=html;const root=t.content.firstElementChild;const contents=root&&getClassDisplay(root)==='contents';if(contents){parent.append(root);return root;}const w=document.createElement('div');w.className='placed';Object.assign(w.style,{left:m.x+'px',top:m.y+'px',width:m.width+'px',height:m.height+'px'});w.append(root);parent.append(w);return w;}
 function getClassDisplay(el){document.body.append(el);const d=getComputedStyle(el).display;el.remove();return d;}
-function background(parent){appendHTML(parent,'<div class="art-background"><img src="assets/7aca10c9-a1a6-4830-88ad-521f410d0427.png" alt=""></div>');}
+function background(parent){appendHTML(parent,'<div class="art-background"><img src="assets/561f8939-377c-48e8-8341-01d5a7dfc9a2.png" alt=""></div>');}
 const left=appendHTML($('#left-panel'),'<div class="side-art"></div>');background(left);
 const leftPositions={'0:10':[-48,711,466,125],'0:11':[-2,40,437.444,719.773],'0:38':[362,751.5,34.077,32.169],'0:39':[148,-5.922,32.492,36.391],'0:40':[309.239,5,31.132,26.898],'0:41':[19,258,400,277],'0:61':[46,192,112,119],'0:296':[43,597,123.863,176.874],'0:504':[282,146,116,133.185],'0:547':[261,579,116,162.738],'0:741':[16,15,102,21],'0:748':[20,103,168,54.86]};
 for(const [id,[x,y,width,height]]of Object.entries(leftPositions))placed(left,id,{x,y,width,height});
